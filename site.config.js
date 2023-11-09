@@ -4,7 +4,7 @@ const CONFIG = {
     name: "Devin",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "AI&SEO Marketer",
-    bio: "21세기가 천직인 마케터, Devin입니다.",
+    bio: "21세기 최적화 마케터, Devin입니다.",
     email: "marketingbydevin@gmail.com",
     linkedin: "marketerdevin",
     github: "Devin-marketing",
@@ -35,15 +35,15 @@ const CONFIG = {
 
   // plugin configuration (optional)
   googleAnalytics: {
-    enable: false,
+    enable: true,
     config: {
-      measurementId: process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "",
+      measurementId: process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "G-XSHJ8C12YJ",
     },
   },
   googleSearchConsole: {
-    enable: false,
+    enable: true,
     config: {
-      siteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "",
+      siteVerification: process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION || "<meta name="google-site-verification" content="iCUdG0eat5gSk3eL1p8wPyol6o5TK39Do9bmXTOMW8E" />",
     },
   },
   utterances: {
