@@ -12,7 +12,7 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `find my link`,
+      name: `linktree`,
       href: "https://linktr.ee/marketingbydevin",
     },
   ],
