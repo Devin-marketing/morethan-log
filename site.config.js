@@ -12,8 +12,8 @@ const CONFIG = {
   },
   projects: [
     {
-      name: `Devin's Marketing-log`,
-      href: "https://github.com/morethanmin/morethan-log",
+      name: `find my link`,
+      href: "https://linktr.ee/marketingbydevin",
     },
   ],
   // blog setting (required)
