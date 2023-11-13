@@ -2,7 +2,7 @@ const CONFIG = {
   // profile setting (required)
   profile: {
     name: "Devin",
-    image: "/Frame 7559.png", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
+    image: "/Frame 7559.png", 
     role: "AI&SEO Marketer",
     bio: "21세기 최적화 마케터, Devin입니다.",
     email: "marketingbydevin@gmail.com",
@@ -25,7 +25,7 @@ const CONFIG = {
   // CONFIG configration (required)
   link: "https://morethan-log.vercel.app",
   since: 2022, // If leave this empty, current year will be used.
-  lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
+  lang: "ko-KR", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://og-image-korean.vercel.app", // The link to generate OG image, don't end with a slash
 
   // notion configuration (required)
